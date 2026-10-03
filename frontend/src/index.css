@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 font-sans antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply tracking-tight;
+  }
+
+  * {
+    @apply border-slate-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400;
+  }
+}
+
+@layer components {
+  /* Cards */
+  .card {
+    @apply bg-white rounded-xl border border-slate-200 shadow-card;
+  }
+  .card-hover {
+    @apply hover:shadow-card-hover hover:border-slate-300 transition-all duration-200;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 text-white text-sm font-semibold
+           rounded-lg hover:bg-primary-700 active:bg-primary-800 transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-white text-slate-700 text-sm font-semibold
+           rounded-lg border border-slate-300 hover:bg-slate-50 hover:border-slate-400
+           active:bg-slate-100 transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-danger {
+    @apply inline-flex items-center gap-2 px-5 py-2.5 bg-danger-600 text-white text-sm font-semibold
+           rounded-lg hover:bg-danger-700 transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-danger-500 focus:ring-offset-2;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 text-slate-500 text-sm font-medium
+           rounded-lg hover:bg-slate-100 hover:text-slate-700 transition-colors duration-150
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-1;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold;
+  }
+  .badge-blue   { @apply badge bg-primary-100 text-primary-700; }
+  .badge-green  { @apply badge bg-success-100 text-success-700; }
+  .badge-red    { @apply badge bg-danger-100 text-danger-700; }
+  .badge-yellow { @apply badge bg-warning-100 text-warning-700; }
+  .badge-gray   { @apply badge bg-slate-100 text-slate-600; }
+
+  /* Form inputs */
+  .input {
+    @apply w-full px-3.5 py-2.5 bg-white border border-slate-300 rounded-lg text-sm text-slate-800
+           placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+           focus:border-primary-500 transition-colors duration-150;
+  }
+  .textarea {
+    @apply input resize-none;
+  }
+
+  /* Section labels */
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-widest text-slate-400;
+  }
+
+  /* Metric value */
+  .metric-value {
+    @apply text-3xl font-bold text-slate-900 tabular-nums;
+  }
+  .metric-label {
+    @apply text-sm text-slate-500 font-medium mt-0.5;
+  }
+
+  /* Divider */
+  .divider {
+    @apply border-t border-slate-200;
+  }
+
+  /* Skill pill */
+  .skill-pill {
+    @apply inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium
+           border transition-colors duration-150;
+  }
+  .skill-pill-matched  { @apply skill-pill bg-success-50 text-success-700 border-success-200; }
+  .skill-pill-gap      { @apply skill-pill bg-danger-50 text-danger-700 border-danger-200; }
+  .skill-pill-implicit { @apply skill-pill bg-warning-50 text-warning-700 border-warning-200; }
+  .skill-pill-neutral  { @apply skill-pill bg-slate-50 text-slate-600 border-slate-200; }
+
+  /* Progress bar */
+  .progress-bar {
+    @apply h-2 bg-slate-200 rounded-full overflow-hidden;
+  }
+  .progress-fill {
+    @apply h-full bg-primary-500 rounded-full transition-all duration-700 ease-out;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in  { animation: fadeIn  0.4s ease-out both; }
+  .animate-slide-up { animation: slideUp 0.4s ease-out both; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}

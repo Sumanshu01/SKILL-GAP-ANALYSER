@@ -1,0 +1,150 @@
+{
+  "report_id": "6f72bb45-a011-47c4-9713-ace3f6731e30",
+  "timestamp": "2026-10-03T23:32:09.113939",
+  "model_used": "Proposed Hybrid",
+  "candidate_skills": [
+    "Python",
+    "Docker",
+    "AWS",
+    "CI/CD",
+    "Microservices Architecture",
+    "RESTful API Design",
+    "Git Version Control"
+  ],
+  "jd_explicit_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "Kubernetes",
+    "Linux Administration",
+    "PyTorch"
+  ],
+  "matched_skills": [],
+  "explicit_gaps": [
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "Kubernetes",
+    "Linux Administration",
+    "PyTorch"
+  ],
+  "implicit_gaps": [
+    "Algorithmic Thinking",
+    "Automated Testing",
+    "CI/CD",
+    "Container Networking",
+    "DevOps Principles",
+    "Docker",
+    "GPU Computing",
+    "Git Version Control",
+    "Linear Algebra",
+    "Object-Oriented Programming",
+    "Operating System Basics",
+    "Probability & Statistics",
+    "Vector Calculus"
+  ],
+  "skill_coverage_pct": 0.0,
+  "overall_similarity_score": 0.1587,
+  "roadmap": [
+    {
+      "phase": 1,
+      "skill": "Algorithmic Thinking",
+      "skill_type": "implicit",
+      "estimated_weeks": "2\u20133 weeks",
+      "description": "Foundational competency in algorithmic thinking.",
+      "triggered_by": [
+        "Machine Learning",
+        "Python",
+        "PyTorch"
+      ]
+    },
+    {
+      "phase": 1,
+      "skill": "Automated Testing",
+      "skill_type": "implicit",
+      "estimated_weeks": "2\u20133 weeks",
+      "description": "Foundational competency in automated testing.",
+      "triggered_by": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "phase": 1,
+      "skill": "CI/CD",
+      "skill_type": "implicit",
+      "estimated_weeks": "2\u20133 weeks",
+      "description": "Automated pipeline practices bridging software development, automated testing, artifact creation, and production release.",
+      "triggered_by": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "phase": 1,
+      "skill": "Container Networking",
+      "skill_type": "implicit",
+      "estimated_weeks": "2\u20133 weeks",
+      "description": "Foundational competency in container networking.",
+      "triggered_by": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "phase": 1,
+      "skill": "DevOps Principles",
+      "skill_type": "implicit",
+      "estimated_weeks": "2\u20133 weeks",
+      "description": "Foundational competency in devops principles.",
+      "triggered_by": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "phase": 2,
+      "skill": "Machine Learning",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "Discipline of artificial intelligence focusing on algorithms capable of learning patterns and generalizing from empirical data.",
+      "triggered_by": null
+    },
+    {
+      "phase": 2,
+      "skill": "Deep Learning",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "Subfield of machine learning utilizing multi-layered artificial neural networks for high-dimensional feature extraction.",
+      "triggered_by": null
+    },
+    {
+      "phase": 2,
+      "skill": "Python",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "High-level general-purpose programming language emphasizing code readability, widely used in data science, AI, and web backend.",
+      "triggered_by": null
+    },
+    {
+      "phase": 2,
+      "skill": "Kubernetes",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "Open-source system for automating deployment, scaling, and operational management of containerized applications.",
+      "triggered_by": null
+    },
+    {
+      "phase": 2,
+      "skill": "Linux Administration",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "Configuring, maintaining, securing, and troubleshooting Unix-like server operating systems and process environments.",
+      "triggered_by": null
+    },
+    {
+      "phase": 2,
+      "skill": "PyTorch",
+      "skill_type": "explicit",
+      "estimated_weeks": "3\u20134 weeks",
+      "description": "Open-source machine learning library based on Torch for tensor computation and deep neural networks with dynamic autograd.",
+      "triggered_by": null
+    }
+  ]
+}

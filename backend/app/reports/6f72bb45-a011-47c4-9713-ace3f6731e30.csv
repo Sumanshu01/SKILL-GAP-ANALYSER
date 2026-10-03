@@ -1,0 +1,67 @@
+AI Resume Skill Gap Analyzer — Analysis Report
+Report ID,6f72bb45-a011-47c4-9713-ace3f6731e30
+Generated,2026-10-03T23:32:09.113939
+Model Used,Proposed Hybrid
+Skill Coverage,0.0%
+Overall Similarity,0.1587
+
+CANDIDATE SKILLS
+Skill
+Python
+Docker
+AWS
+CI/CD
+Microservices Architecture
+RESTful API Design
+Git Version Control
+
+JD EXPLICIT REQUIREMENTS
+Skill
+Machine Learning
+Deep Learning
+Python
+Kubernetes
+Linux Administration
+PyTorch
+
+MATCHED SKILLS
+Skill
+
+EXPLICIT SKILL GAPS
+Skill
+Machine Learning
+Deep Learning
+Python
+Kubernetes
+Linux Administration
+PyTorch
+
+IMPLICIT SKILL GAPS
+Skill
+Algorithmic Thinking
+Automated Testing
+CI/CD
+Container Networking
+DevOps Principles
+Docker
+GPU Computing
+Git Version Control
+Linear Algebra
+Object-Oriented Programming
+Operating System Basics
+Probability & Statistics
+Vector Calculus
+
+UPSKILLING ROADMAP
+Phase,Skill,Type,Estimated Time,Description
+1,Algorithmic Thinking,implicit,2–3 weeks,Foundational competency in algorithmic thinking.
+1,Automated Testing,implicit,2–3 weeks,Foundational competency in automated testing.
+1,CI/CD,implicit,2–3 weeks,"Automated pipeline practices bridging software development, automated testing, artifact creation, an"
+1,Container Networking,implicit,2–3 weeks,Foundational competency in container networking.
+1,DevOps Principles,implicit,2–3 weeks,Foundational competency in devops principles.
+2,Machine Learning,explicit,3–4 weeks,Discipline of artificial intelligence focusing on algorithms capable of learning patterns and genera
+2,Deep Learning,explicit,3–4 weeks,Subfield of machine learning utilizing multi-layered artificial neural networks for high-dimensional
+2,Python,explicit,3–4 weeks,"High-level general-purpose programming language emphasizing code readability, widely used in data sc"
+2,Kubernetes,explicit,3–4 weeks,"Open-source system for automating deployment, scaling, and operational management of containerized a"
+2,Linux Administration,explicit,3–4 weeks,"Configuring, maintaining, securing, and troubleshooting Unix-like server operating systems and proce"
+2,PyTorch,explicit,3–4 weeks,Open-source machine learning library based on Torch for tensor computation and deep neural networks 
